@@ -74,9 +74,9 @@ function cardMake(headline, authorimg, authorname){
     imgUrl.src = authorimg;
     authorSpan.textContent = authorname;
 
-    // card.addEventListener("click", () =>{
-    //     s
-    // });
+    card.addEventListener("click", () =>{
+        console.log(headline);
+    });
     return card;
 }
 // <div class="card">

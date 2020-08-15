@@ -38,5 +38,9 @@ function tabCreate(res){
 
     tabClass.textContent = res;
 
+    tabClass.addEventListener("click", (e) =>{
+        console.log(e.target.textContent);
+        if(e.target.textContent === )
+    });
     return tabClass;
 }
